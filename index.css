@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body & Background */
+body {
+    background-color: #e0f7fa;
+    background-image: linear-gradient(135deg, #e0f7fa 0%, #b3e5fc 100%);
+    min-height: 100vh;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #ffffff;
+    border: 1px solid #81d4fa;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin-left: 2rem;
+    font-size: 0.95rem;
+}
+
+nav a:first-child {
+    border-bottom: 2px solid #0288d1;
+    padding-bottom: 0.3rem;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 8rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.greeting {
+    font-size: 1.3rem;
+    font-style: normal;
+}
+
+.hero-text h1 {
+    font-size: 2.2rem;
+    margin: 0.5rem 0;
+    color: #000000;
+}
+
+.hero-text h2 {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #212121;
+    margin-bottom: 1.2rem;
+}
+
+.tagline {
+    font-size: 1rem;
+    font-style: italic;
+    color: #333333;
+    margin-bottom: 1.8rem;
+    max-width: 350px;
+}
+
+.btn {
+    background-color: #81d4fa;
+    border: none;
+    padding: 0.6rem 2rem;
+    border-radius: 3px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    color: #000000;
+}
+
+.hero-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 1rem 8rem 3rem;
+}
+
+.skills-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #81d4fa;
+    display: inline-block;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.skill-box {
+    background-color: #81d4fa;
+    padding: 0.5rem;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #000000;
+}
+
+/* Footer */
+footer {
+    background-color: #e0f7fa;
+    border-top: 1px solid #81d4fa;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #212121;
+    margin-top: auto;
+}
